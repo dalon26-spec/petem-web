@@ -9,6 +9,11 @@
       "source": "/fundaciones/:path*",
       "destination": "https://petem-fundaciones-clean.vercel.app/fundaciones/:path*",
       "permanent": true
+    },
+    {
+      "source": "/splash",
+      "destination": "https://petem-assets.vercel.app/petem-splash.png",
+      "permanent": false
     }
   ]
 }
